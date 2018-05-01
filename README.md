@@ -1,8 +1,8 @@
-## Mapbox GL Geocoder [![CircleCI](https://circleci.com/gh/mapbox/mapbox-gl-geocoder.svg?style=svg)](https://circleci.com/gh/mapbox/mapbox-gl-geocoder)
+## Mapbox GL Geocoder
 
 This control is customized to use Mecklenburg County's geocoding API rather than Mapbox's, as well as fetch/promise polyfills.
 
-I added a `searchTypes` option to specify the search types for our API. Default is "address".
+Use the optional `searchTypes` option to specify the search types for Mecklenburg's API. Default is "address".
 
 ```javascript
 var geocoder = new MapboxGeocoder({
